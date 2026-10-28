@@ -7,7 +7,7 @@ Data and Python developer based in Doha, Qatar. I build data pipelines, dashboar
 - 🧑‍🏫 Taught data science as a GDSC instructor (2023 to 2025)
 - 🌍 Arabic (native) and English
 
-**Tools:** Python · pandas · scikit-learn · SQL · FastAPI · Flask · Power BI · Hugging Face · Docker · Git
+**Tools:** Python · TypeScript · Go · pandas · scikit-learn · SQL · FastAPI · Flask · Power BI · Hugging Face · Docker · Git
 
 ### Projects
 
@@ -17,6 +17,8 @@ Data and Python developer based in Doha, Qatar. I build data pipelines, dashboar
 | [ds_salary_proj](https://github.com/Ifazawezk/ds_salary_proj) | What AI, ML and data jobs pay: an analysis of 151k salaries, plus a command-line salary estimator. |
 | [Koru_Paper](https://github.com/Ifazawezk/Koru_Paper) | Does human oversight of AI advice actually work? A re-analysis of 35k human–AI decisions, with a one-page brief for a board. |
 | [British-airway-Task](https://github.com/Ifazawezk/British-airway-Task) | Scraping and analysing British Airways customer reviews. |
+| [arabic-normalize](https://github.com/Ifazawezk/arabic-normalize) | TypeScript library that makes Arabic text searchable: ignores diacritics, alef forms, tatweel and digit styles, and highlights matches. |
+| [linkcheck](https://github.com/Ifazawezk/linkcheck) | Fast broken-link checker for Markdown, HTML and websites, written in Go. |
 
 <a href="https://gitscore.live/Ifazawezk">
   <picture>

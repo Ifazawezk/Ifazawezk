@@ -18,6 +18,13 @@ Data and Python developer based in Doha, Qatar. I build data pipelines, dashboar
 | [Koru_Paper](https://github.com/Ifazawezk/Koru_Paper) | Does human oversight of AI advice actually work? A re-analysis of 35k human–AI decisions, with a one-page brief for a board. |
 | [British-airway-Task](https://github.com/Ifazawezk/British-airway-Task) | Scraping and analysing British Airways customer reviews. |
 
+<a href="https://gitscore.live/Ifazawezk">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://gitscore.live/api/badge/Ifazawezk?style=card&theme=dark" />
+    <img src="https://gitscore.live/api/badge/Ifazawezk?style=card" alt="GitScore for Ifazawezk" />
+  </picture>
+</a>
+
 ### Contact
 
 Find me on [LinkedIn](https://www.linkedin.com/in/mohanned-alhagar-b298b8272).

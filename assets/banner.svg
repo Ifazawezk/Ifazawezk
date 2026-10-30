@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Mohaned Elhagar. Data, Python backend and Arabic NLP. Doha, Qatar.">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1024"/>
+      <stop offset="0.55" stop-color="#1b1640"/>
+      <stop offset="1" stop-color="#4a1531"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f0c27b"/>
+      <stop offset="1" stop-color="#e86a92"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1838"/>
+      <stop offset="1" stop-color="#0b1024"/>
+    </linearGradient>
+    <style>
+      .star { fill: #fff; animation: twinkle 4s ease-in-out infinite; }
+      .s2 { animation-delay: 1.3s; } .s3 { animation-delay: 2.6s; }
+      @keyframes twinkle { 0%, 100% { opacity: .15 } 50% { opacity: .9 } }
+      .node { fill: #f0c27b; animation: pulse 3s ease-in-out infinite; }
+      .n2 { animation-delay: 1s; } .n3 { animation-delay: 2s; }
+      @keyframes pulse { 0%, 100% { opacity: .35 } 50% { opacity: 1 } }
+      .edge { stroke: #f0c27b; stroke-width: 1; opacity: .25; stroke-dasharray: 4 6; animation: flow 6s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -100 } }
+      .win { fill: #ffd98a; animation: lights 5s steps(1) infinite; }
+      .w2 { animation-delay: 2.5s; }
+      @keyframes lights { 0%, 100% { opacity: .9 } 50% { opacity: .25 } }
+      .title { font: 700 54px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #fff; letter-spacing: .5px; }
+      .sub { font: 400 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #d9d4f0; }
+      .ar { font: 600 26px 'Segoe UI', 'Noto Naskh Arabic', 'Arial', sans-serif; fill: url(#glow); }
+      .tag { font: 600 15px 'Cascadia Code', Consolas, monospace; fill: #f0c27b; letter-spacing: 2px; }
+      .wave { animation: drift 8s ease-in-out infinite alternate; }
+      @keyframes drift { to { transform: translateX(-30px) } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g>
+    <circle class="star" cx="80" cy="40" r="1.4"/><circle class="star s2" cx="190" cy="85" r="1"/>
+    <circle class="star s3" cx="310" cy="30" r="1.2"/><circle class="star" cx="460" cy="60" r="1"/>
+    <circle class="star s2" cx="640" cy="25" r="1.3"/><circle class="star s3" cx="760" cy="70" r="1"/>
+    <circle class="star" cx="880" cy="35" r="1.1"/><circle class="star s2" cx="1010" cy="55" r="1.4"/>
+    <circle class="star s3" cx="1140" cy="28" r="1"/><circle class="star" cx="560" cy="110" r=".9"/>
+  </g>
+
+  <!-- data network over the sky, right side -->
+  <g>
+    <line class="edge" x1="820" y1="60" x2="910" y2="105"/><line class="edge" x1="910" y1="105" x2="1010" y2="75"/>
+    <line class="edge" x1="1010" y1="75" x2="1100" y2="120"/><line class="edge" x1="910" y1="105" x2="960" y2="150"/>
+    <line class="edge" x1="960" y1="150" x2="1100" y2="120"/><line class="edge" x1="820" y1="60" x2="760" y2="125"/>
+    <circle class="node" cx="820" cy="60" r="3.5"/><circle class="node n2" cx="910" cy="105" r="4"/>
+    <circle class="node n3" cx="1010" cy="75" r="3.5"/><circle class="node" cx="1100" cy="120" r="3"/>
+    <circle class="node n2" cx="960" cy="150" r="3"/><circle class="node n3" cx="760" cy="125" r="2.5"/>
+  </g>
+
+  <!-- Doha skyline silhouette -->
+  <g fill="#120d26">
+    <rect x="640" y="200" width="40" height="60"/>
+    <rect x="690" y="170" width="34" height="90"/>
+    <path d="M735 260 V150 q18 -40 36 0 V260 Z"/>                 <!-- rounded tower -->
+    <rect x="782" y="185" width="28" height="75"/>
+    <path d="M820 260 V120 l14 -22 l14 22 V260 Z"/>               <!-- spire tower -->
+    <rect x="860" y="160" width="38" height="100"/>
+    <path d="M906 260 V140 a22 22 0 0 1 44 0 V260 Z"/>            <!-- dome-top tower -->
+    <rect x="958" y="190" width="30" height="70"/>
+    <path d="M996 260 V110 q20 -30 40 0 V260 Z"/>                 <!-- tall bullet tower -->
+    <rect x="1044" y="175" width="36" height="85"/>
+    <path d="M1088 260 V145 l20 -14 l20 14 V260 Z"/>
+    <rect x="1136" y="200" width="64" height="60"/>
+  </g>
+  <g>
+    <rect class="win" x="700" y="185" width="4" height="4"/><rect class="win w2" x="712" y="205" width="4" height="4"/>
+    <rect class="win" x="750" y="175" width="4" height="4"/><rect class="win w2" x="829" y="150" width="4" height="4"/>
+    <rect class="win" x="872" y="180" width="4" height="4"/><rect class="win w2" x="920" y="165" width="4" height="4"/>
+    <rect class="win" x="1010" y="140" width="4" height="4"/><rect class="win w2" x="1020" y="180" width="4" height="4"/>
+    <rect class="win" x="1056" y="195" width="4" height="4"/><rect class="win w2" x="1104" y="170" width="4" height="4"/>
+  </g>
+
+  <!-- corniche water -->
+  <rect y="258" width="1200" height="42" fill="url(#water)"/>
+  <g class="wave" stroke="#f0c27b" stroke-opacity=".35" stroke-width="1.2" fill="none">
+    <path d="M620 272 q15 -4 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0"/>
+    <path d="M660 284 q15 -3 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0"/>
+  </g>
+
+  <!-- text -->
+  <text class="tag" x="60" y="92">DOHA, QATAR</text>
+  <text class="title" x="60" y="152">Mohaned Elhagar</text>
+  <text class="sub" x="62" y="192">Data · Python backend · Arabic NLP</text>
+  <text class="ar" x="62" y="236">أحوّل البيانات إلى قرارات</text>
+</svg>
